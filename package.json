@@ -1,0 +1,31 @@
+{
+  "name": "arekush1a",
+  "version": "2.0.0",
+  "description": "A new version of Arekushia's website, a portfolio explaining and detailing my work.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "website",
+    "portfolio",
+    "arekushia"
+  ],
+  "author": "arekushia",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arekushia/arekush1a.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arekushia/arekush1a/issues"
+  },
+  "homepage": "https://github.com/arekushia/arekush1a#readme",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "material-design-lite": "^1.3.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.6"
+  }
+}

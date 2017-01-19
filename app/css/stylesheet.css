@@ -1,0 +1,16 @@
+/* SCSS file */
+body {
+  font-family: 'Open Sans'; }
+
+a {
+  text-decoration: none; }
+
+.demo-layout-transparent {
+  background: url("../img/background2.jpg") center/cover;
+  background-blend-mode: darken; }
+  .demo-layout-transparent img.logo {
+    line-height: 64px; }
+
+nav a {
+  font-size: 20px;
+  font-family: 'Open Sans'; }

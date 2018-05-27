@@ -2,38 +2,163 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Arekushia's new website</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<title>Alexia Legros aka Arekushia - Experience Design, UX and UI designer / developer</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Monoton|Passion+One" rel="stylesheet">
 	<link rel="stylesheet" href="./css/stylesheet.css">
+	<link rel="stylesheet" href="./css/reset.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 <body>
-	<div class="demo-layout-transparent mdl-layout mdl-js-layout">
-		<header class="mdl-layout__header mdl-layout__header--transparent">
-			<div class="mdl-layout__header-row">
-				<!-- Title -->
-				<a href="#home"><img class="logo" src="./img/logo.svg" width="100px" height="100px"></a>
-				<!-- Add spacer, to align navigation to the right -->
-				<div class="mdl-layout-spacer"></div>
+	<div class="main-wrapper">
+		<header class="header">
 				<!-- Navigation -->
-				<nav class="mdl-navigation">
-					<a class="mdl-navigation__link" href="#portfolio">Portfolio</a>
-					<a class="mdl-navigation__link" href="#about">About</a>
-					<a class="mdl-navigation__link" href="#contact">Contact</a>
-				</nav>
-			</div>
+                <nav>
+                    <ul class="nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                      </li>
+                    </ul>
+                </nav>
 		</header>
-	<main id="home" class="mdl-layout__content">
+	<main id="home">
+        <div class="main-container">
+            <span class="main-container--title">AREKUSHIA</span>
+            <h1>Web Swiss-Army Knife</h1>
+            <span>UX Design for every kind of interaction.</span>
+            <ul class="social-container">
+                <li><a href="https://www.linkedin.com/in/alexia-legros/"><i class="fab fa-linkedin-in"></i></a></li>
+                <li class=""><a href="https://www.instagram.com/are.kushia/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://500px.com/arekushia"><i class="fab fa-500px"></i></a></li>
+                <li><i class="fab fa-discord"></i></li>
+            </ul>
+            <div class="buttons">
+                <a href="#about" class="slide">
+                    Discover
+                </a>
+                <a href="/app/CV_3.2.pdf">
+                Download CV</a>
+            </div>
+        </div>
 	</main>
 	</div>
-	<section id="portfolio">
-	</section>
 	<section id="about">
+        <div class="container content">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="arekAvatar" src="./img/zvatar.jpg" alt="Avatar Alexia"/>
+                </div>
+                <div class="col-md-8">
+                    <h2>Alexia aka Arekushia</h2>
+                    <p>I'm currently a student in web development, design and digital marketing (Master 1) in <b><a href="http://www.digital-campus.fr" target="_blank">Digital Campus Bordeaux</a></b>, specialized in UX Design. I live in Montpellier, currently working for Keole.NET.
+                        <br>I've always been interested in many domains, including <b>music</b> of all sorts, <b>photography</b>, <b>automotive sports and industry</b>, <b>computing science</b>, <b>fashion clothing and trends</b>, <b>architecture</b>, <b>web development</b>, and of course <b>interaction design</b>. I discovered the latter when I was 16 years old and never let that go. I learn at a slow but steady pace.</p>
+                </div>
+            </div>
+            <div class="row projects">
+                <div class="col-md-4">
+                    <i class="fas fa-car"></i>
+                    <h3>Automotive</h3>
+                    <p>Starting to work on my burgundy Series3 E36, which I bought in August 2017. Easy to buy, spare-parts are quite cheap so I'm trying to put her in good shape.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-camera-retro"></i>
+                    <h3>Photography</h3>
+                    <p>I once had a bridge for photography and video during my early studies. Sold it to make some Polaroid photography but now missing the digital feel.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-code"></i>
+                    <h3>Computing Science and Dev</h3>
+                    <p>Always been this nerd behind her computer. I have a lot of tips and tricks up my sleeve. I'm into web languages (HTML, CSS, JS), and I use Angular, Wordpress and Symfony every day. </p>
+                </div>
+            </div>
+            <div class="row projects">
+                
+                <div class="col-md-6">
+                <i class="fas fa-pencil-alt"></i>
+                <h3>All forms of Design</h3>
+                    <p>As a kid I wanted to become an architect. I've always been into Design and I literally can't live with it. </p>
+                </div>
+                <div class="col-md-6">
+                <i class="fas fa-pencil-alt"></i>
+                <h3>All forms of Design</h3>
+                    <p>As a kid I wanted to become an architect. I've always been into Design and I literally can't live with it. </p>
+                </div>
+            </div>
+        </div>
 	</section>
-	<section id="contact"></section>
+	<section id="portfolio">
+        <div class="container content">
+                <h2>Projects</h2>
+            <div class="row">
+                <div class="col-md-4 min">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                </div>
+                <div class="col-md-8">
+                    <h3>Project Name</h3>
+                    <p>Description</p>
+                </div>
+            </div>
+        </div>
+	</section>
+	<section id="contact">
+        <div class="form">
+            <header class="header-form">
+                <h2>Let's have a chat.</h2>
+                <span>about UX, photography, mountains, roaring cars, or anything you like.</span>
+            </header>
+            <form action>
+                <label for="customer_name">My name is ... </label>
+                <input type="text" name="customer_name" placeholder="Jane Doe"> 
+                
+                <label for="customer_email">My e-mail is ...</label>
+                <input type="email" name="customer_email" placeholder="jane@doe.com">
+                
+                <label for="customer_object">The reason you're contacting me</label>
+                <select id="customerObject" name="customer_object">
+                    <option value="_value1">To have a nice chat</option>
+                    <option value="_value2">Talk about jobs</option>
+                    <option value="_value3">Team up for something you like/you own / you work for</option>
+                    <option value="_value4">I'm not sure yet</option>
+                </select>
+                
+                <label for="customer_msg">Your message</label>
+                <textarea name="customer_msg" placeholder="Your sweet message goes here"></textarea>
+                
+                <div class="rgpd">
+                <p>I won't use your email for bad stuff, promise!</p></div>
+                <input type="submit">
+            </form>
+        </div>
+    </section>
 	<footer>
 	</footer>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script>
+        jQuery(document).ready(function($) {
+           $(".nav-link, .slide").click(function(e) {
+                e.preventDefault();
+                var aid = $(this).attr("href");
+                $('body, html').animate({scrollTop: $(aid).offset().top - 50});
+            });
+        });
+    </script>
 </body>
 </html>

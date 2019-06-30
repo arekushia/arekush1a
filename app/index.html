@@ -2,16 +2,21 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Alexia Legros aka Arekushia - Experience Design, UX and UI designer / developer</title>
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Monoton|Passion+One" rel="stylesheet">
-	<link rel="stylesheet" href="./css/stylesheet.css">
+	
 	<link rel="stylesheet" href="./css/reset.css">
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
+    
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Monoton|Passion+One|Maven+Pro:700,900" rel="stylesheet">
+	
 </head>
 <body>
 	<div class="main-wrapper">
@@ -21,6 +26,7 @@
                     <ul class="nav">
                       <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
+                        <ul class="submenu"><li><a href="#skills" class="nav-link">Skills</a></li></ul>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -33,9 +39,9 @@
 		</header>
 	<main id="home">
         <div class="main-container">
-            <span class="main-container--title">AREKUSHIA</span>
+            <span class="main-container--title">Arekushia</span>
             <h1>Web Swiss-Army Knife</h1>
-            <span>UX Design for every kind of interaction.</span>
+            <span>Web project management and UX Design. For the best experience.</span>
             <ul class="social-container">
                 <li><a href="https://www.linkedin.com/in/alexia-legros/"><i class="fab fa-linkedin-in"></i></a></li>
                 <li class=""><a href="https://www.instagram.com/are.kushia/"><i class="fab fa-instagram"></i></a></li>
@@ -46,77 +52,89 @@
                 <a href="#about" class="slide">
                     Discover
                 </a>
-                <a href="/app/CV_3.2.pdf">
+                <a href="../app/CV_3.2.pdf">
                 Download CV</a>
             </div>
         </div>
 	</main>
 	</div>
-	<section id="about">
+	<div id="about">
         <div class="container content">
             <div class="row">
                 <div class="col-md-4">
-                    <img class="arekAvatar" src="./img/zvatar.jpg" alt="Avatar Alexia"/>
+                    <img class="arekAvatar" src="./img/avatar.png" alt="Avatar Alexia"/>
                 </div>
                 <div class="col-md-8">
                     <h2>Alexia aka Arekushia</h2>
-                    <p>I'm currently a student in web development, design and digital marketing (Master 1) in <b><a href="http://www.digital-campus.fr" target="_blank">Digital Campus Bordeaux</a></b>, specialized in UX Design. I live in Montpellier, currently working for Keole.NET.
-                        <br>I've always been interested in many domains, including <b>music</b> of all sorts, <b>photography</b>, <b>automotive sports and industry</b>, <b>computing science</b>, <b>fashion clothing and trends</b>, <b>architecture</b>, <b>web development</b>, and of course <b>interaction design</b>. I discovered the latter when I was 16 years old and never let that go. I learn at a slow but steady pace.</p>
-                </div>
-            </div>
-            <div class="row projects">
-                <div class="col-md-4">
-                    <i class="fas fa-car"></i>
-                    <h3>Automotive</h3>
-                    <p>Starting to work on my burgundy Series3 E36, which I bought in August 2017. Easy to buy, spare-parts are quite cheap so I'm trying to put her in good shape.</p>
-                </div>
-                <div class="col-md-4">
-                    <i class="fas fa-camera-retro"></i>
-                    <h3>Photography</h3>
-                    <p>I once had a bridge for photography and video during my early studies. Sold it to make some Polaroid photography but now missing the digital feel.</p>
-                </div>
-                <div class="col-md-4">
-                    <i class="fas fa-code"></i>
-                    <h3>Computing Science and Dev</h3>
-                    <p>Always been this nerd behind her computer. I have a lot of tips and tricks up my sleeve. I'm into web languages (HTML, CSS, JS), and I use Angular, Wordpress and Symfony every day. </p>
-                </div>
-            </div>
-            <div class="row projects">
-                
-                <div class="col-md-6">
-                <i class="fas fa-pencil-alt"></i>
-                <h3>All forms of Design</h3>
-                    <p>As a kid I wanted to become an architect. I've always been into Design and I literally can't live with it. </p>
-                </div>
-                <div class="col-md-6">
-                <i class="fas fa-pencil-alt"></i>
-                <h3>All forms of Design</h3>
-                    <p>As a kid I wanted to become an architect. I've always been into Design and I literally can't live with it. </p>
+                    <span>23 years old</span>
+                    <p>I'm currently a student in web, design and digital marketing (Master 2) in <a href="http://www.digital-campus.fr" target="_blank">Digital Campus Bordeaux</a>, specialized in UX Design. I live between the two cities of Montpellier and Bordeaux, currently working for <a href="">Keole.NET</a>.
+                        <br>I've always been interested in many domains, including <b>music</b> of all sorts, <b>photography</b>, <b>automotive sports and industry</b>, <b>computing science</b>, <b>fashion clothing and trends</b>, <b>architecture</b>, <b>web development</b>, and of course <b>interaction design</b>. I discovered the latter when I was 16 years old and never let that go.</p>
                 </div>
             </div>
         </div>
-	</section>
-	<section id="portfolio">
-        <div class="container content">
-                <h2>Projects</h2>
+    </div>
+    <section id="skills">
+        <div class="container">
+            
+        <h2>The Skills</h2>
             <div class="row">
-                <div class="col-md-4 min">
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4"></div>
+                <div class="col-md-4 skill">
+                    <h3>Computing Science and Dev</h3>
+                    <p>I was sat quite early in my life in front of a computer... so I tend to be comfortable with them. <br> I use web languages every day and work on <b>Wordpress plugins and themes</b>.<br> <b>HTML</b>, <b>CSS/SASS</b>, Javascript and PHP are my tools to conquer them all! </p>
                 </div>
-                <div class="col-md-8">
-                    <h3>Project Name</h3>
-                    <p>Description</p>
+                
+                <div class="col-md-4 skill">
+                        <h3>Web project management</h3>
+                        <p>I have some good experience in web project management, especially in doing websites and UX experiences for clients. </p>
+                    </div>
+                <div class="col-md-4 skill">
+                    <h3>UX methodology</h3>
+                    <p>During my years in Digital Campus, we were taught how to listen, watch, talk to clients and their users to conceive the best possible. I have some notions in cognitive science, psychology, but designing interfaces and doing mockups as well.</p>
+                    <ul class="tags">
+                        <li>UX Personas</li>
+                        <li>Experience maps</li>
+                        <li>Interviews</li>
+                        <li>Focus groups</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 skill">
+                        <h3>Automobile and motorsports</h3>
+                        <p>Way too much into motorsports, drift, and anything that involves a car or a motorcycle. Launched myself into a restoration project on a BMW E36. Also bought a Yamaha XTX to have fun on those </p>
+                </div>
+                    <div class="col-md-4 skill">
+                        <h3>Photography</h3>
+                        <p>I once had a bridge for photography and video during my early studies. Sold it to make some Polaroid photography but now missing the digital feel.</p>
+                    </div>
+                    <div class="col-md-4 skill">
+                        <h3>Architecture</h3>
+                        <p>I've always been a big fan of architecture ; I discovered </p>
+                    </div>
+            </div>
+        </div>
+    </section>
+	<section id="portfolio">
+        <div class="content">
+                <h2>Projects</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>MPL - Montpellier Parking Lots</h3>
+                        <p>A simple tool to know Montpellier's famous parking lots availabilities. I kept looking at the xml file when I needed to know where to go in town, so I made a nicer-to-look-at tool.
+                    </div>
+                    <div class="col-md-12">
+                        <h3>RevFLEX</h3>
+                        <p>RevFLEX is my end-of-year project. It consists in a car management app for all kind of profiles and knowledge. I can make the sources (business plan, tech spec, prototype) available to you if you're interested. Looking for a developer or partner for this at the moment.</p>
+                    </div>
                 </div>
             </div>
         </div>
-	</section>
+    </section>
+    <section id="instagram">
+        <ul class="instagram_posts">
+        </ul>
+    </section>
 	<section id="contact">
         <div class="form">
             <header class="header-form">
@@ -150,13 +168,48 @@
 	<footer>
 	</footer>
     
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+				
     <script>
         jQuery(document).ready(function($) {
            $(".nav-link, .slide").click(function(e) {
                 e.preventDefault();
                 var aid = $(this).attr("href");
                 $('body, html').animate({scrollTop: $(aid).offset().top - 50});
+            });
+
+            var token = '35366425.2599259.7adf0fdccc3e41baa1e3b81fa74c7329', // learn how to obtain it below
+            userid = 35366425, // User ID - get it in source HTML of your Instagram profile or look at the next example :)
+            num_photos = 12; // how much photos do you want to get
+            
+            $.ajax({
+                url: 'https://api.instagram.com/v1/users/' + userid + '/media/recent', // or /users/self/media/recent for Sandbox
+                dataType: 'jsonp',
+                type: 'GET',
+                data: {access_token: token, count: num_photos},
+                success: function(data){
+                    console.log(data);
+                    for( x in data.data ){
+                        $('.instagram_posts').append('<div class="insta-post"><img src="'+data.data[x].images.low_resolution.url+'"></div>'); // data.data[x].images.low_resolution.url - URL of image, 306х306
+                        // data.data[x].images.thumbnail.url - URL of image 150х150
+                        // data.data[x].images.standard_resolution.url - URL of image 612х612
+                        // data.data[x].link - Instagram post URL 
+                    }
+                    
+                    $('.instagram_posts').slick({
+                        infinite: true,
+                        variableWidth: true,
+                        slidesToShow: 6,
+                        slidesToScroll: 6
+                    });
+                },
+                error: function(data){
+                    console.log(data); // send the error notifications to console
+                }
             });
         });
     </script>

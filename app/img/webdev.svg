@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64.1" style="enable-background:new 0 0 64 64.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<polygon class="st0" points="22,18 28,18 28,16 20,16 20,24 22,24 "/>
+<polygon class="st0" points="46,18 52,18 52,24 54,24 54,16 46,16 "/>
+<polygon class="st0" points="22,28 20,28 20,36 28,36 28,34 22,34 "/>
+<polygon class="st0" points="52,34 46,34 46,36 54,36 54,28 52,28 "/>
+<path class="st0" d="M62,48V2H2v46h24v8h-8v6h28v-6h-8v-8H62z M4,4h56v34h-2V6H6v32H4V4z M56,12H34V8h22V12z M32,12h-6V8h6V12z
+	 M24,12h-6V8h6V12z M16,12H8V8h8V12z M8,14h8v2H8V14z M8,18h8v2H8V18z M8,22h8v2H8V22z M8,26h8v2H8V26z M8,30h8v2H8V30z M8,34h8v4H8
+	V34z M18,14h38v24H18V14z M44,58v2H20v-2H44z M28,56v-8h8v8H28z M4,46v-6h56v6H4z"/>
+<circle class="st0" cx="32" cy="43" r="1"/>
+<polygon class="st0" points="31.2,19.4 25.7,26 31.2,32.6 32.8,31.4 28.3,26 32.8,20.6 "/>
+<polygon class="st0" points="42.8,19.4 41.2,20.6 45.7,26 41.2,31.4 42.8,32.6 48.3,26 "/>
+<rect x="30.7" y="25" transform="matrix(0.3165 -0.9486 0.9486 0.3165 0.6284 52.8706)" class="st0" width="12.6" height="2"/>
+</svg>
